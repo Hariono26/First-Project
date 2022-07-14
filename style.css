@@ -1,0 +1,64 @@
+* {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+header {
+    height: 12vh;
+    display: flex;
+    justify-content: space-between ;
+}
+.logo img {
+    width: 8vw;
+    height: 12vh;
+    margin: 0 10vw;
+}
+.menu img {
+    height: 5vh;
+    margin: 3vh 10vw;
+}
+.first_image img {
+    width: 100vw;
+    height: auto;
+}
+.profil-cont {
+    background-color: whitesmoke;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bidangusaha{
+    font-size: 20px;
+    color: rgb(170, 170, 170);
+    font-weight: 400;
+}
+.namausaha {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.penjelasanusaha {
+    width: 45vw;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 50;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.btn-danger {
+    background-color: rgb(223, 32, 32);
+    height: 10vh;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.btn-danger:hover {
+    background-color: rgb(182, 26, 26);
+}
+.layanantelpon-cont {
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
